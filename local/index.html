@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Запрещаем пользователю случайно зумить игру пальцами на мобилке -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Overhype Phaser 3 Framework</title>
+        <style>
+            /* Растягиваем html и body на 100% экрана и убираем любые прокрутки */
+            html, body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                background: url(/assets/images/bg.jpg) no-repeat; /* Исправлен путь */
+                background-position: center;
+                background-size: cover; /* Чтобы фон плавно растягивался под экран */
+            }
+
+            /* Растягиваем контейнер игры, чтобы Phaser видел реальные границы */
+            #phaser_div {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            window.CURRENT_PLAYGROUND = 'local';
+            window.BUILD_RELEASE = 1779280533374;
+        </script>
+        
+        <!-- Контейнер теперь имеет корректные размеры -->
+        <div id="phaser_div">
+            <script src=build1779280533374.js></script>
+        </div>
+    </body>
+</html>
