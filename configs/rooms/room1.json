@@ -1,0 +1,843 @@
+{
+  "key": "room1",
+  "name_key": "room1_loc",
+  "background": "room1_room_bg",
+  "content": {
+    "repairActionPoint": [
+      "room1_dead_plant",
+      "room1_broken_cupboard",
+      "room1_broken_window",
+      "room1_trash",
+      "room1_broken_door",
+      "room1_broken_wall_right",
+      "room1_broken_floor",
+      "room1_broken_wall_left"
+    ],
+    "decorActionPoint": [
+      "room1_door",
+      "room1_window",
+      "room1_cupboard",
+      "room1_luster",
+      "room1_picture",
+      "room1_chair_with_plant",
+      "room1_plant_left",
+      "room1_carpet"
+    ]
+  },
+  "allActionPoints": [
+    {
+      "key": "room1_dead_plant",
+      "multiobjects": [
+        "room1_dead_plant"
+      ],
+      "x": 142,
+      "y": 582
+    },
+    {
+      "key": "room1_broken_cupboard",
+      "multiobjects": [
+        "room1_broken_cupboard"
+      ],
+      "x": 300,
+      "y": 345
+    },
+    {
+      "key": "room1_broken_window",
+      "multiobjects": [
+        "room1_broken_window"
+      ],
+      "x": 514,
+      "y": 357
+    },
+    {
+      "key": "room1_trash",
+      "multiobjects": [
+        "room1_trash_6",
+        "room1_trash_5",
+        "room1_trash_4",
+        "room1_trash_3",
+        "room1_trash_2",
+        "room1_trash_1"
+      ],
+      "x": 358,
+      "y": 700
+    },
+    {
+      "key": "room1_broken_door",
+      "multiobjects": [
+        "room1_broken_door"
+      ],
+      "x": 130,
+      "y": 443
+    },
+    {
+      "key": "room1_broken_wall_right",
+      "multiobjects": [
+        "room1_broken_wall_right"
+      ],
+      "x": 553,
+      "y": 344
+    },
+    {
+      "key": "room1_broken_floor",
+      "multiobjects": [
+        "room1_broken_floor"
+      ],
+      "x": 358,
+      "y": 702
+    },
+    {
+      "key": "room1_broken_wall_left",
+      "multiobjects": [
+        "room1_broken_wall_left"
+      ],
+      "x": 306,
+      "y": 356
+    },
+    {
+      "key": "room1_door",
+      "multiobjects": [
+        "room1_door",
+        "room1_door_variant_2",
+        "room1_door_variant_3"
+      ],
+      "x": 128,
+      "y": 444
+    },
+    {
+      "key": "room1_window",
+      "multiobjects": [
+        "room1_window",
+        "room1_window_variant_2",
+        "room1_window_variant_3"
+      ],
+      "x": 512,
+      "y": 344
+    },
+    {
+      "key": "room1_cupboard",
+      "multiobjects": [
+        "room1_cupboard",
+        "room1_cupboard_variant_2",
+        "room1_cupboard_variant_3"
+      ],
+      "x": 304,
+      "y": 358
+    },
+    {
+      "key": "room1_luster",
+      "multiobjects": [
+        "room1_luster",
+        "room1_luster_variant_2",
+        "room1_luster_variant_3"
+      ],
+      "x": 393,
+      "y": 128
+    },
+    {
+      "key": "room1_picture",
+      "multiobjects": [
+        "room1_picture",
+        "room1_picture_variant_2",
+        "room1_picture_variant_3"
+      ],
+      "x": 623,
+      "y": 360
+    },
+    {
+      "key": "room1_chair_with_plant",
+      "multiobjects": [
+        "room1_chair_with_plant",
+        "room1_chair_with_plant_variant_2",
+        "room1_chair_with_plant_variant_3"
+      ],
+      "x": 622,
+      "y": 584
+    },
+    {
+      "key": "room1_plant_left",
+      "multiobjects": [
+        "room1_plant_left",
+        "room1_plant_left_variant_2",
+        "room1_plant_left_variant_3"
+      ],
+      "x": 54,
+      "y": 586
+    },
+    {
+      "key": "room1_carpet",
+      "multiobjects": [
+        "room1_carpet",
+        "room1_carpet_variant_2",
+        "room1_carpet_variant_3"
+      ],
+      "x": 360,
+      "y": 694
+    }
+  ],
+  "allMultiobjects": [
+    {
+      "key": "room1_dead_plant",
+      "name_key": "room1_dead_plant_loc",
+      "parts": [
+        "room1_dead_plant_2",
+        "room1_dead_plant_1"
+      ],
+      "price": 30,
+      "x": 17,
+      "y": 442
+    },
+    {
+      "key": "room1_broken_cupboard",
+      "name_key": "room1_broken_cupboard_loc",
+      "parts": [
+        "room1_broken_cupboard"
+      ],
+      "price": 30,
+      "x": 184,
+      "y": 70
+    },
+    {
+      "key": "room1_broken_window",
+      "name_key": "room1_broken_window_loc",
+      "parts": [
+        "room1_broken_window"
+      ],
+      "price": 30,
+      "x": 438,
+      "y": 124
+    },
+    {
+      "key": "room1_trash_6",
+      "name_key": "room1_trash_6_loc",
+      "parts": [
+        "room1_trash_6"
+      ],
+      "price": 99999,
+      "x": 508,
+      "y": 611
+    },
+    {
+      "key": "room1_trash_5",
+      "name_key": "room1_trash_5_loc",
+      "parts": [
+        "room1_trash_5"
+      ],
+      "price": 99999,
+      "x": 380,
+      "y": 550
+    },
+    {
+      "key": "room1_trash_4",
+      "name_key": "room1_trash_4_loc",
+      "parts": [
+        "room1_trash_4"
+      ],
+      "price": 99999,
+      "x": 134,
+      "y": 615
+    },
+    {
+      "key": "room1_trash_3",
+      "name_key": "room1_trash_3_loc",
+      "parts": [
+        "room1_trash_3"
+      ],
+      "price": 99999,
+      "x": 128,
+      "y": 597
+    },
+    {
+      "key": "room1_trash_2",
+      "name_key": "room1_trash_2_loc",
+      "parts": [
+        "room1_trash_2"
+      ],
+      "price": 20,
+      "x": 235,
+      "y": 748
+    },
+    {
+      "key": "room1_trash_1",
+      "name_key": "room1_trash_1_loc",
+      "parts": [
+        "room1_trash_1"
+      ],
+      "price": 20,
+      "x": 0,
+      "y": 664
+    },
+    {
+      "key": "room1_broken_door",
+      "name_key": "room1_broken_door_loc",
+      "parts": [
+        "room1_broken_door"
+      ],
+      "price": 20,
+      "x": 59,
+      "y": 208
+    },
+    {
+      "key": "room1_broken_wall_right",
+      "name_key": "room1_broken_wall_right_loc",
+      "parts": [
+        "room1_broken_wall_right"
+      ],
+      "price": 99999,
+      "x": 386,
+      "y": 9
+    },
+    {
+      "key": "room1_broken_floor",
+      "name_key": "room1_broken_floor_loc",
+      "parts": [
+        "room1_broken_floor"
+      ],
+      "price": 99999,
+      "x": 0,
+      "y": 486
+    },
+    {
+      "key": "room1_broken_wall_left",
+      "name_key": "room1_broken_wall_left_loc",
+      "parts": [
+        "room1_broken_wall_left"
+      ],
+      "price": 99999,
+      "x": 0,
+      "y": 9
+    },
+    {
+      "key": "room1_door",
+      "name_key": "room1_door_loc",
+      "parts": [
+        "room1_door_A"
+      ],
+      "price": 50,
+      "x": 55,
+      "y": 207
+    },
+    {
+      "key": "room1_door_variant_2",
+      "name_key": "room1_door_variant_2_loc",
+      "parts": [
+        "room1_door_B"
+      ],
+      "price": 70,
+      "x": 55,
+      "y": 207
+    },
+    {
+      "key": "room1_door_variant_3",
+      "name_key": "room1_door_variant_3_loc",
+      "parts": [
+        "room1_door_C"
+      ],
+      "price": 90,
+      "x": 55,
+      "y": 207
+    },
+    {
+      "key": "room1_window",
+      "name_key": "room1_window_loc",
+      "parts": [
+        "room1_window_A"
+      ],
+      "price": 50,
+      "x": 446,
+      "y": 120
+    },
+    {
+      "key": "room1_window_variant_2",
+      "name_key": "room1_window_variant_2_loc",
+      "parts": [
+        "room1_window_B"
+      ],
+      "price": 70,
+      "x": 446,
+      "y": 120
+    },
+    {
+      "key": "room1_window_variant_3",
+      "name_key": "room1_window_variant_3_loc",
+      "parts": [
+        "room1_window_C"
+      ],
+      "price": 90,
+      "x": 446,
+      "y": 120
+    },
+    {
+      "key": "room1_cupboard",
+      "name_key": "room1_cupboard_loc",
+      "parts": [
+        "room1_cupboard_A"
+      ],
+      "price": 60,
+      "x": 185,
+      "y": 78
+    },
+    {
+      "key": "room1_cupboard_variant_2",
+      "name_key": "room1_cupboard_variant_2_loc",
+      "parts": [
+        "room1_cupboard_B"
+      ],
+      "price": 80,
+      "x": 185,
+      "y": 78
+    },
+    {
+      "key": "room1_cupboard_variant_3",
+      "name_key": "room1_cupboard_variant_3_loc",
+      "parts": [
+        "room1_cupboard_C"
+      ],
+      "price": 100,
+      "x": 185,
+      "y": 78
+    },
+    {
+      "key": "room1_luster",
+      "name_key": "room1_luster_loc",
+      "parts": [
+        "room1_luster_A"
+      ],
+      "price": 99999,
+      "x": 311,
+      "y": 36
+    },
+    {
+      "key": "room1_luster_variant_2",
+      "name_key": "room1_luster_variant_2_loc",
+      "parts": [
+        "room1_luster_B"
+      ],
+      "price": 99999,
+      "x": 311,
+      "y": 36
+    },
+    {
+      "key": "room1_luster_variant_3",
+      "name_key": "room1_luster_variant_3_loc",
+      "parts": [
+        "room1_luster_C"
+      ],
+      "price": 99999,
+      "x": 311,
+      "y": 36
+    },
+    {
+      "key": "room1_picture",
+      "name_key": "room1_picture_loc",
+      "parts": [
+        "room1_picture_A"
+      ],
+      "price": 99999,
+      "x": 566,
+      "y": 219
+    },
+    {
+      "key": "room1_picture_variant_2",
+      "name_key": "room1_picture_variant_2_loc",
+      "parts": [
+        "room1_picture_B"
+      ],
+      "price": 99999,
+      "x": 566,
+      "y": 219
+    },
+    {
+      "key": "room1_picture_variant_3",
+      "name_key": "room1_picture_variant_3_loc",
+      "parts": [
+        "room1_picture_C"
+      ],
+      "price": 99999,
+      "x": 566,
+      "y": 219
+    },
+    {
+      "key": "room1_chair_with_plant",
+      "name_key": "room1_chair_with_plant_loc",
+      "parts": [
+        "room1_chair_with_plant_A_1",
+        "room1_chair_with_plant_A_2"
+      ],
+      "price": 40,
+      "x": 524,
+      "y": 484
+    },
+    {
+      "key": "room1_chair_with_plant_variant_2",
+      "name_key": "room1_chair_with_plant_variant_2_loc",
+      "parts": [
+        "room1_chair_with_plant_B_1",
+        "room1_chair_with_plant_B_2"
+      ],
+      "price": 50,
+      "x": 524,
+      "y": 484
+    },
+    {
+      "key": "room1_chair_with_plant_variant_3",
+      "name_key": "room1_chair_with_plant_variant_3_loc",
+      "parts": [
+        "room1_chair_with_plant_C_1",
+        "room1_chair_with_plant_C_2"
+      ],
+      "price": 70,
+      "x": 524,
+      "y": 484
+    },
+    {
+      "key": "room1_plant_left",
+      "name_key": "room1_plant_left_loc",
+      "parts": [
+        "room1_plant_left_A"
+      ],
+      "price": 40,
+      "x": 18,
+      "y": 459
+    },
+    {
+      "key": "room1_plant_left_variant_2",
+      "name_key": "room1_plant_left_variant_2_loc",
+      "parts": [
+        "room1_plant_left_B"
+      ],
+      "price": 50,
+      "x": 18,
+      "y": 459
+    },
+    {
+      "key": "room1_plant_left_variant_3",
+      "name_key": "room1_plant_left_variant_3_loc",
+      "parts": [
+        "room1_plant_left_C"
+      ],
+      "price": 70,
+      "x": 18,
+      "y": 459
+    },
+    {
+      "key": "room1_carpet",
+      "name_key": "room1_carpet_loc",
+      "parts": [
+        "room1_carpet_A"
+      ],
+      "price": 40,
+      "x": 125,
+      "y": 552
+    },
+    {
+      "key": "room1_carpet_variant_2",
+      "name_key": "room1_carpet_variant_2_loc",
+      "parts": [
+        "room1_carpet_B"
+      ],
+      "price": 50,
+      "x": 125,
+      "y": 552
+    },
+    {
+      "key": "room1_carpet_variant_3",
+      "name_key": "room1_carpet_variant_3_loc",
+      "parts": [
+        "room1_carpet_C"
+      ],
+      "price": 70,
+      "x": 125,
+      "y": 552
+    }
+  ],
+  "allParts": [
+    {
+      "key": "room1_dead_plant_2",
+      "image": "room1_dead_plant_2",
+      "x": 160,
+      "y": 442,
+      "angle": 0
+    },
+    {
+      "key": "room1_dead_plant_1",
+      "image": "room1_dead_plant_1",
+      "x": 17,
+      "y": 469,
+      "angle": 0
+    },
+    {
+      "key": "room1_broken_cupboard",
+      "image": "room1_broken_cupboard",
+      "x": 184,
+      "y": 70,
+      "angle": 135
+    },
+    {
+      "key": "room1_broken_window",
+      "image": "room1_broken_window",
+      "x": 438,
+      "y": 124,
+      "angle": 225
+    },
+    {
+      "key": "room1_trash_6",
+      "image": "room1_trash_6",
+      "x": 508,
+      "y": 611,
+      "angle": 0
+    },
+    {
+      "key": "room1_trash_5",
+      "image": "room1_trash_5",
+      "x": 380,
+      "y": 550,
+      "angle": 0
+    },
+    {
+      "key": "room1_trash_4",
+      "image": "room1_trash_4",
+      "x": 134,
+      "y": 615,
+      "angle": 180
+    },
+    {
+      "key": "room1_trash_3",
+      "image": "room1_trash_3",
+      "x": 128,
+      "y": 597,
+      "angle": 0
+    },
+    {
+      "key": "room1_trash_2",
+      "image": "room1_trash_2",
+      "x": 235,
+      "y": 748,
+      "angle": 0
+    },
+    {
+      "key": "room1_trash_1",
+      "image": "room1_trash_1",
+      "x": 0,
+      "y": 664,
+      "angle": 0
+    },
+    {
+      "key": "room1_broken_door",
+      "image": "room1_broken_door",
+      "x": 59,
+      "y": 208,
+      "angle": 135
+    },
+    {
+      "key": "room1_broken_wall_right",
+      "image": "room1_broken_wall_right",
+      "x": 386,
+      "y": 9,
+      "angle": 180
+    },
+    {
+      "key": "room1_broken_floor",
+      "image": "room1_broken_floor",
+      "x": 0,
+      "y": 486,
+      "angle": 180
+    },
+    {
+      "key": "room1_broken_wall_left",
+      "image": "room1_broken_wall_left",
+      "x": 0,
+      "y": 9,
+      "angle": 180
+    },
+    {
+      "key": "room1_door_A",
+      "image": "room1_door",
+      "x": 55,
+      "y": 207,
+      "angle": 135
+    },
+    {
+      "key": "room1_door_B",
+      "image": "room1_door_B",
+      "x": 55,
+      "y": 207,
+      "angle": 135
+    },
+    {
+      "key": "room1_door_C",
+      "image": "room1_door_C",
+      "x": 55,
+      "y": 207,
+      "angle": 135
+    },
+    {
+      "key": "room1_window_A",
+      "image": "room1_window",
+      "x": 446,
+      "y": 120,
+      "angle": 225
+    },
+    {
+      "key": "room1_window_B",
+      "image": "room1_window_B",
+      "x": 446,
+      "y": 120,
+      "angle": 225
+    },
+    {
+      "key": "room1_window_C",
+      "image": "room1_window_C",
+      "x": 446,
+      "y": 120,
+      "angle": 225
+    },
+    {
+      "key": "room1_cupboard_A",
+      "image": "room1_cupboard",
+      "x": 185,
+      "y": 78,
+      "angle": 135
+    },
+    {
+      "key": "room1_cupboard_B",
+      "image": "room1_cupboard_B",
+      "x": 185,
+      "y": 78,
+      "angle": 135
+    },
+    {
+      "key": "room1_cupboard_C",
+      "image": "room1_cupboard_C",
+      "x": 185,
+      "y": 78,
+      "angle": 135
+    },
+    {
+      "key": "room1_luster_A",
+      "image": "room1_luster",
+      "x": 311,
+      "y": 36,
+      "angle": -180
+    },
+    {
+      "key": "room1_luster_B",
+      "image": "room1_luster_B",
+      "x": 311,
+      "y": 36,
+      "angle": -180
+    },
+    {
+      "key": "room1_luster_C",
+      "image": "room1_luster_C",
+      "x": 311,
+      "y": 36,
+      "angle": -180
+    },
+    {
+      "key": "room1_picture_A",
+      "image": "room1_picture",
+      "x": 566,
+      "y": 219,
+      "angle": 225
+    },
+    {
+      "key": "room1_picture_B",
+      "image": "room1_picture_B",
+      "x": 566,
+      "y": 219,
+      "angle": 225
+    },
+    {
+      "key": "room1_picture_C",
+      "image": "room1_picture_C",
+      "x": 566,
+      "y": 219,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_A_1",
+      "image": "room1_chair_with_plant_1",
+      "x": 524,
+      "y": 529,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_A_2",
+      "image": "room1_chair_with_plant_2",
+      "x": 620,
+      "y": 484,
+      "angle": 0
+    },
+    {
+      "key": "room1_chair_with_plant_B_1",
+      "image": "room1_chair_with_plant_B_1",
+      "x": 524,
+      "y": 529,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_B_2",
+      "image": "room1_chair_with_plant_B_2",
+      "x": 620,
+      "y": 484,
+      "angle": 0
+    },
+    {
+      "key": "room1_chair_with_plant_C_1",
+      "image": "room1_chair_with_plant_C_1",
+      "x": 524,
+      "y": 529,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_C_2",
+      "image": "room1_chair_with_plant_C_2",
+      "x": 620,
+      "y": 484,
+      "angle": 0
+    },
+    {
+      "key": "room1_plant_left_A",
+      "image": "room1_plant_left",
+      "x": 18,
+      "y": 459,
+      "angle": 0
+    },
+    {
+      "key": "room1_plant_left_B",
+      "image": "room1_plant_left_B",
+      "x": 18,
+      "y": 459,
+      "angle": 0
+    },
+    {
+      "key": "room1_plant_left_C",
+      "image": "room1_plant_left_C",
+      "x": 18,
+      "y": 459,
+      "angle": 0
+    },
+    {
+      "key": "room1_carpet_A",
+      "image": "room1_carpet",
+      "x": 125,
+      "y": 552,
+      "angle": 0
+    },
+    {
+      "key": "room1_carpet_B",
+      "image": "room1_carpet_B",
+      "x": 125,
+      "y": 552,
+      "angle": 0
+    },
+    {
+      "key": "room1_carpet_C",
+      "image": "room1_carpet_C",
+      "x": 125,
+      "y": 552,
+      "angle": 0
+    }
+  ]
+}
