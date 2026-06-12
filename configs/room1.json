@@ -775,7 +775,7 @@
           "trigger_key": "room1"
         }
       ],
-      "award": null,
+      "award": 10,
       "replicas": [
         {
           "id": "room1_d1_r1",
