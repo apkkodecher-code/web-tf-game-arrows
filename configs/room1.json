@@ -203,8 +203,9 @@
       "key": "room1_dialog_d_test",
       "type": "dialog",
       "dialogId": "room1_d_test",
-      "trigger_type": "point_before_action",
-      "trigger_key": "room1_trash",
+      "multiobject": "",
+      "price": 10,
+      "priceType": "coins",
       "x": 358,
       "y": 700
     }
@@ -775,7 +776,7 @@
           "trigger_key": "room1"
         }
       ],
-      "award": 10,
+      "award": null,
       "replicas": [
         {
           "id": "room1_d1_r1",
