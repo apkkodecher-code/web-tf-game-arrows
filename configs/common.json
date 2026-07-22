@@ -1,7 +1,46 @@
 {
+  "languages": {
+    "ru": "Русский",
+    "tr": "Türkçe",
+    "en": "English",
+    "es": "Español",
+    "pt": "Português",
+    "ar": "العربية",
+    "id": "Bahasa Indonesia",
+    "fr": "Français",
+    "ja": "日本語",
+    "it": "Italiano",
+    "de": "Deutsch",
+    "hi": "हिन्दी",
+    "az": "Azərbaycan dili",
+    "be": "Беларуская",
+    "he": "עברית",
+    "hy": "Հայերեն",
+    "ka": "ქართული",
+    "kk": "Қазақ тілі",
+    "ro": "Română",
+    "tk": "Türkmen dili",
+    "uk": "Українська",
+    "uz": "Oʻzbekcha",
+    "bg": "Български",
+    "ca": "Català",
+    "cs": "Čeština",
+    "fa": "فارسی",
+    "hu": "Magyar",
+    "ko": "한국어",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sk": "Slovenčina",
+    "sr": "Српски",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "zh": "中文"
+  },
   "rooms": [
     "room1",
-    "room2"
+    "room2",
+    "room3",
+    "room5"
   ],
   "levelsCount": 160,
   "level_awards": {
@@ -2152,7 +2191,8 @@
         "anna_neutral",
         "anna_sad",
         "anna_fear",
-        "anna_embarrassed"
+        "anna_embarrassed",
+        "anna_happy"
       ]
     },
     {
@@ -2175,7 +2215,8 @@
       "id": "mary",
       "states": [
         "mary_neutral",
-        "mary_smile"
+        "mary_smile",
+        "mary_angry"
       ]
     },
     {
@@ -2194,14 +2235,23 @@
         "kate_smirk",
         "kate_angry"
       ]
+    },
+    {
+      "id": "cat",
+      "states": [
+        "cat_neutral",
+        "cat_joy",
+        "cat_embarrassed"
+      ]
     }
   ],
   "constants": {
     "lifes_refill_price": 450,
     "lifes_refill_with_ad_count": 1,
-    "bulbs_rebuy_price": 900,
-    "bulbs_rebuy_count": 3,
-    "bulbs_rebuy_with_ad_count": 1,
+    "lifes_total_count": 5,
+    "bulb_rebuy_price": 900,
+    "bulb_rebuy_count": 3,
+    "bulb_rebuy_with_ad_count": 1,
     "eraser_rebuy_price": 1400,
     "eraser_rebuy_count": 3,
     "eraser_rebuy_with_ad_count": 1,
@@ -2289,7 +2339,8 @@
   "soundVolume": 0.3,
   "shop": [
     {
-      "id": "shop_lot1",
+      "id": 1,
+      "key": "shop_lot1",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds1",
@@ -2304,7 +2355,8 @@
       ]
     },
     {
-      "id": "shop_lot2",
+      "id": 2,
+      "key": "shop_lot2",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds2",
@@ -2319,7 +2371,8 @@
       ]
     },
     {
-      "id": "shop_lot3",
+      "id": 3,
+      "key": "shop_lot3",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds3",
@@ -2334,7 +2387,8 @@
       ]
     },
     {
-      "id": "shop_lot4",
+      "id": 4,
+      "key": "shop_lot4",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds4",
@@ -2349,7 +2403,8 @@
       ]
     },
     {
-      "id": "shop_lot5",
+      "id": 5,
+      "key": "shop_lot5",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds5",
@@ -2364,7 +2419,8 @@
       ]
     },
     {
-      "id": "shop_lot6",
+      "id": 6,
+      "key": "shop_lot6",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds6",
@@ -2379,7 +2435,8 @@
       ]
     },
     {
-      "id": "shop_lot7",
+      "id": 7,
+      "key": "shop_lot7",
       "type": "big",
       "currencyType": "iap",
       "imageKey": "bundle1_image",
@@ -2410,7 +2467,8 @@
       ]
     },
     {
-      "id": "shop_lot8",
+      "id": 8,
+      "key": "shop_lot8",
       "type": "big",
       "currencyType": "iap",
       "imageKey": "bundle2_image",
@@ -2441,7 +2499,8 @@
       ]
     },
     {
-      "id": "shop_lot9",
+      "id": 9,
+      "key": "shop_lot9",
       "type": "big",
       "currencyType": "iap",
       "imageKey": "bundle3_image",
@@ -2472,7 +2531,8 @@
       ]
     },
     {
-      "id": "shop_lot10",
+      "id": 10,
+      "key": "shop_lot10",
       "type": "big",
       "currencyType": "iap",
       "imageKey": "no_ads_bundle_image",
